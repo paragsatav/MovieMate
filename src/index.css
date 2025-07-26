@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--body_background);
+  color: var(--body_color);
+  transition: all 0.3s ease-in-out;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --body_background: #101010;
+  --body_color: #fff;
+  --heading_color: #ffe400;
+  --border_color: rgb(66, 64, 64);
+}
+
+[data-theme="light"] {
+  --body_background: #fff;
+  --body_color: #101010;
+  --heading_color: #101010;
+  --border_color: rgb(170, 165, 165);
+}
+
+.align-center{
+  display: flex;
+  align-items: center;
+}

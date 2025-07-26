@@ -1,0 +1,40 @@
+label{
+    width: 45px;
+    height: 21px;
+    position: relative;
+    display: block;
+    background: white;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+label::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border-radius: 180px;
+    transition: 0.3s;
+}
+input{
+    height: 0;
+    width: 0;
+}
+input:checked + label{
+    background: #242424;
+    border: 1px solid #b7b5b5;
+}
+input:checked + label::after{
+    left: 43px;
+    transform: translate(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+    border: 1px solid #787878;
+    top: 0px;
+}
+label:active::after{
+    width:22px;
+}

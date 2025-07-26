@@ -1,0 +1,39 @@
+.movieHeader{
+    padding: 10px 30px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.movieHeader > h2 {
+    color: var(--heading_color);
+}
+
+.movieFilter{
+    list-style: none;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.movieItem{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.movieItem.active{
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.movieSort{
+    justify-content: center;
+    padding: 7px 15px;
+    margin-left: 15px;
+    background-color: var(--body_background);
+    color: var(--body_color);
+}
+
+.movie_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
