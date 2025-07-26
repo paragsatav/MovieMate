@@ -1,12 +1,18 @@
-# React + Vite
+# MovieMate
+A React-based movie listing app integrated with TMDB API to display movies by popularity, top-rated, and upcoming categories.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 MovieMate (TMDB API)
 
-Currently, two official plugins are available:
+A sleek React application that fetches and displays movies using TMDB API. Includes categories like "Popular", "Top Rated", and "Upcoming" with clean card-based UI and responsive layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Browse movies by category (Popular, Top Rated, Upcoming)
+- Search functionality (optional if implemented)
+- Dynamic data via TMDB API
+- Responsive and modular layout
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- React (JavaScript)
+- Tailwind CSS
+- Axios / Fetch API
+- TMDB API
